@@ -4,7 +4,7 @@ import SimpleLightbox from 'simplelightbox';
 import { galleryItems } from './gallery-items';
 // Change code below this line
 const galleryEl = document.querySelector('.gallery');
-galleryEl.classList.add();
+
 function makeGalleryItemsMarkup(items) {
   return items
     .map(({ original, preview, description }) => {
